@@ -10,7 +10,7 @@ const spotify = new SpotifyWebApi();
 
 function App() {
   //access to dataLayer
-  const [{ user, token }, dispatch] = useDataLayerValue();
+  const [{ user, token, playlists }, dispatch] = useDataLayerValue();
 
   useEffect(() => {
     const hash = getTokenFromUrl();
@@ -32,10 +32,19 @@ function App() {
           user: user,
         });
       });
+
+      spotify.getUserPlaylists().then((playlists) => {
+        dispatch({
+          type: "SET_PLAYLISTS",
+          playlists: playlists,
+        });
+        console.log("playlists", playlists);
+      });
     }
   }, []);
   console.log("user from global datalayer", user);
   console.log("token from global datalayer", token);
+  // console.log("playlists", playlists);
 
   return (
     <div className="app">
