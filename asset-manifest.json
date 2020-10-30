@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.ccf118fe.chunk.css",
-    "main.js": "/static/js/main.98dfb8ea.chunk.js",
-    "main.js.map": "/static/js/main.98dfb8ea.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.c877449a.js",
-    "runtime-main.js.map": "/static/js/runtime-main.c877449a.js.map",
-    "static/js/2.0ffe4246.chunk.js": "/static/js/2.0ffe4246.chunk.js",
-    "static/js/2.0ffe4246.chunk.js.map": "/static/js/2.0ffe4246.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.ccf118fe.chunk.css.map": "/static/css/main.ccf118fe.chunk.css.map",
-    "static/js/2.0ffe4246.chunk.js.LICENSE.txt": "/static/js/2.0ffe4246.chunk.js.LICENSE.txt"
+    "main.css": "/mySpotify/static/css/main.ccf118fe.chunk.css",
+    "main.js": "/mySpotify/static/js/main.98dfb8ea.chunk.js",
+    "main.js.map": "/mySpotify/static/js/main.98dfb8ea.chunk.js.map",
+    "runtime-main.js": "/mySpotify/static/js/runtime-main.12032763.js",
+    "runtime-main.js.map": "/mySpotify/static/js/runtime-main.12032763.js.map",
+    "static/js/2.0ffe4246.chunk.js": "/mySpotify/static/js/2.0ffe4246.chunk.js",
+    "static/js/2.0ffe4246.chunk.js.map": "/mySpotify/static/js/2.0ffe4246.chunk.js.map",
+    "index.html": "/mySpotify/index.html",
+    "static/css/main.ccf118fe.chunk.css.map": "/mySpotify/static/css/main.ccf118fe.chunk.css.map",
+    "static/js/2.0ffe4246.chunk.js.LICENSE.txt": "/mySpotify/static/js/2.0ffe4246.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.c877449a.js",
+    "static/js/runtime-main.12032763.js",
     "static/js/2.0ffe4246.chunk.js",
     "static/css/main.ccf118fe.chunk.css",
     "static/js/main.98dfb8ea.chunk.js"
